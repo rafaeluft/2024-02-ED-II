@@ -3,7 +3,7 @@
 #include <stdbool.h>
 typedef struct _no {
     int key;
-    struct _no *left, *right;
+    struct _no *left, *right, *p;
 }TNo;
 
 typedef struct {
